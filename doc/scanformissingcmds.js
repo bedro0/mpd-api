@@ -1,8 +1,8 @@
 'use strict'
-// const util = require('util')
-const { loadDoc, MPD_PROTO_URL } = require('./load')
-const xray = require('x-ray')
-// const superagent = require('superagent')
+// import util from "util";
+import { loadDoc, MPD_PROTO_URL } from "./load";
+import xray from "x-ray";
+// import superagent from "superagent";
 
 const cReset = '\x1b[0m'
 const cBlue = '\x1b[34m'

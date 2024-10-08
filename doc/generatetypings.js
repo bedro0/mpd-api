@@ -1,8 +1,9 @@
 'use strict'
-const fs = require('fs')
-const path = require('path')
-// const util = require('util')
-const { loadDoc, MPD_PROTO_URL } = require('./load')
+import fs from "fs";
+import path from "path";
+// import util from "util";
+import { loadDoc, MPD_PROTO_URL } from "./load";
+
 
 const TPL_PATH = path.join(__dirname, 'typings.tpl')
 const TYPINGS_PATH = path.join(__dirname, '..', 'lib', 'index.d.ts')

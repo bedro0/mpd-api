@@ -1,9 +1,9 @@
 'use strict'
 /* eslint-disable no-case-declarations */
-const util = require('util')
-const fs = require('fs')
-const path = require('path')
-const { loadDoc, MPD_PROTO_URL } = require('./load')
+import util from "util";
+import fs from "fs";
+import path from "path";
+import { loadDoc, MPD_PROTO_URL } from "./load";
 
 // eslint-disable-next-line no-unused-vars
 const log = (...args) => console.log(

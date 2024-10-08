@@ -1,5 +1,5 @@
 'use strict'
-const loadspec = require('../lib/api/loadspec')
+import loadspec from "../lib/api/loadspec";
 
 exports.MPD_PROTO_URL = 'https://mpd.readthedocs.io/en/latest/protocol.html'
 exports.MPD_GIT_RAW_URL = 'https://raw.githubusercontent.com/MusicPlayerDaemon/MPD'

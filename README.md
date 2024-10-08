@@ -14,7 +14,7 @@ Wraps the MPD client from [mpd2 module](https://github.com/cotko/mpd.js) with ap
 
   ```js
 
-  const mpdapi = require('mpd-api')
+  import mpdapi from "mpd-api"
 
   // config is passed to net.connect()
   const config = {
