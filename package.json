@@ -44,4 +44,5 @@
   "standard": {
     "ignore": []
   }
+  "type": "module"
 }
